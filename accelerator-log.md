@@ -4,7 +4,7 @@
 ```json
 {
   "projectName" : "tanzu-java-web-app-2",
-  "repositoryPrefix" : "taptsm"
+  "repositoryPrefix" : "https://console.cloud.google.com/gcr/images/nsx-sm/global/sansar"
 }
 ```
 ## Log
@@ -84,7 +84,7 @@
 ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].merge.transformations[0].sources[1].<combo>.transformations[1].transformations[0] (ReplaceText)
 ┃ ┃ ┃ ┃ ┃ ┗  Info Will replace [tanzu-java-web-app->tanzu-java-web-app-2]
 ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].merge.transformations[0].sources[1].<combo>.transformations[1].transformations[1] (ReplaceText)
-┃ ┃ ┃ ┗ ┗ ┗  Info Will replace [your-registry.io/project->taptsm]
+┃ ┃ ┃ ┗ ┗ ┗  Info Will replace [your-registry.io/project->https://console.clou...(truncated)]
 ┃ ┃ ┃ ┏ engine.transformations[0].merge.transformations[0].sources[2] (Combo)
 ┃ ┃ ┃ ┃  Info Combo running as Chain(Include, Chain(chain))
 ┃ ┃ ┃ ┃ engine.transformations[0].merge.transformations[0].sources[2].<combo> (Chain)

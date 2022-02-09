@@ -1,6 +1,6 @@
-SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='taptsm/tanzu-java-web-app-2-source')
+SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='https://console.cloud.google.com/gcr/images/nsx-sm/global/sansar/tanzu-java-web-app-2-source')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
-NAMESPACE = os.getenv("NAMESPACE", default='default')
+NAMESPACE = os.getenv("NAMESPACE", default='tap-one')
 
 k8s_custom_deploy(
     'tanzu-java-web-app-2',
